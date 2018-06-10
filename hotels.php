@@ -3,8 +3,8 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
   <title>Hotels Nearby</title> 
   
-  <!--GOOGLE_MAP API KEY HERE--> 
-  
+
+
   <script src="http://maps.google.com/maps/api/js?key=&callback=initMap"				
           type="text/javascript"></script>
      <style>
@@ -37,7 +37,7 @@ if(isset($_POST['search'])){
     $latt=$_POST['user_query1'];
     $longi=$_POST['user_query2'];
    // $radi=20000;
-    $ul="   ";									//API KEY HEREE
+    $ul="   ";									
    
 
 $ch = curl_init();
@@ -46,7 +46,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
 $headers = array(
   "Accept: application/json",
-  "User-Key:   "                                                //USER KEY HERE
+  "User-Key:   "                                                
   );
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 $result = curl_exec($ch);
@@ -63,12 +63,12 @@ curl_close ($ch);
 
 
 $index=0;
-                                                                        //MAP SCRIPT
+                                                                       
     
  
  echo "var locations = [";   
 
-                                                                        //MAP SCRIPT LOOP
+                                                                        
 
      
    for ($index = 0; $index < $cunt; $index++) {
@@ -96,7 +96,7 @@ $index=0;
      
     
 
-                                                                                           //MAP SCRIPT LOOP END
+                                                                                           
     
     echo "[' ', , , $index, ' ']";
     echo "];";
