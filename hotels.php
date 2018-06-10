@@ -2,7 +2,10 @@
 <head> 
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
   <title>Hotels Nearby</title> 
-  <script src="http://maps.google.com/maps/api/js?key=&callback=initMap"				<!--GOOGLE_MAP API KEY HERE--> 
+  
+  <!--GOOGLE_MAP API KEY HERE--> 
+  
+  <script src="http://maps.google.com/maps/api/js?key=&callback=initMap"				
           type="text/javascript"></script>
      <style>
       /* Always set the map height explicitly to define the size of the div
