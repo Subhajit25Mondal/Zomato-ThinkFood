@@ -1,5 +1,5 @@
 # Zomato-ThinkFood
-ThinkFood is a website that helps you to find your top restaurants around your specified loaction. Its fast and FREE. You can also book your table from Zomato
+ThinkFood is a website that helps you to find your top restaurants around your specified location. Its fast and FREE. You can also compare the BEST PRICE and book your table from Zomato.
 
 # Quick Links
  1. [Screenshots](#screenshots)
