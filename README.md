@@ -14,8 +14,8 @@ ThinkFood is a website that helps you to find your top restaurants around your s
 
 ### Setup in local Server
 1. Install Xampp or Wampp Server.
-3. Place the Zomato API, Google Maps API and place in the empty spaces in `hotels.php`
-4. Run Index.php and you are ready to go.
+2. Place the Zomato API, Google Maps API and place in the empty spaces in `hotels.php`
+3. Run Index.php and you are ready to go.
 
 Note: For Setup Guide. Feel free to post an Issue.
 
